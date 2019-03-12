@@ -1,0 +1,108 @@
+.header{
+  margin: 0 0 70px;
+  &__background{
+    background: red;
+    height: 975px;
+    top: 0;
+    border-radius: 0 0 60%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  &__navigation{
+
+  }
+  &__logo{
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 32px;
+
+    color: #FFFFFF;
+
+  }
+  &__social{
+    color: @white;
+
+    &:hover{
+      color: @black;
+    }
+  }
+
+  &__button{
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14.4px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    padding: 10px 50px;
+    margin: 0 30px;
+  }
+  &__background-content{
+    background: url(/img/Bg_header.png) no-repeat;
+    position: absolute;
+    right: 0;
+    width: 79%;
+    background-size: cover;
+    height: 1211px;
+  }
+
+  &__content{
+
+    padding: 113px 0;
+  }
+  &__title{
+    margin: 0 0 50px;
+  }
+  &__text{
+    font-style: normal;
+    line-height: normal;
+    font-size: 55px;
+    margin: 0 0 50px;
+    color: #FFFFFF;
+    &--bold{
+      font-weight: bold;
+    }
+  }
+  &__button-play{
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 370px;
+  }
+  &__scroll{
+    margin: 0 0 140px;
+  }
+
+}
+
+.menu{
+  background: white;
+  padding: 0!important;
+  &__element{
+    padding: 50px 30px;
+    background: linear-gradient(90deg, #F2F2F2 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.5;
+    z-index: 99;
+  }
+  &__link{
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #231F20;
+    &:hover{
+      color: @red;
+      text-decoration: none;
+    }
+  }
+}
